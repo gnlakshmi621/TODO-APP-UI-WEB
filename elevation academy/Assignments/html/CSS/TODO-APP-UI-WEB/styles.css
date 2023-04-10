@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #f7f7f7;
+}
+a {
+	text-decoration: none;
+	font: normal normal normal 22px/26px Inter;
+	color: #424242;
+}
+hr {
+	display: block;
+	border: 0;
+	border-top: 1px solid #ededed;
+}
+button {
+	background-color: #00a5ec;
+	width: 180px;
+	height: 48px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 4px;
+	font: normal normal normal 18px Inter;
+}
+.header {
+	background-color: white;
+	border: 1px solid #ededed;
+	padding: 10px;
+	position: relative;
+	height: 60px;
+	font: normal normal bold 40px Inter;
+	box-shadow: 0px 3px 30px #7b7b7b29;
+}
+.head {
+	position: absolute;
+	left: 137px;
+}
+.head1 {
+	color: #00a5ec;
+}
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 15px;
+	position: relative;
+	font: normal normal normal 22px Inter;
+}
+.navindex {
+	justify-content: flex-end;
+	right: 140px;
+	top: 50px;
+	bottom: 50px;
+}
+.navview {
+	left: 433px;
+	top: 90px;
+	position: absolute;
+}
+.icon {
+	border-radius: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.iconblue {
+	width: 50px;
+	height: 50px;
+	background-color: #00a5ec;
+}
+.iconblack {
+	width: 35px;
+	height: 35px;
+	background-color: #424242;
+}
+.icontext {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #f7f7f7;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+}
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.containerindex {
+	row-gap: 50px;
+	column-gap: 16px;
+	left: 139px;
+	top: 200px;
+}
+.containerview {
+	justify-content: center;
+	top: 100px;
+}
+.containeraddtask {
+	justify-content: center;
+}
+.containeradditem {
+	justify-content: center;
+	bottom: 250px;
+}
+.box,
+.box1 {
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #ededed;
+}
+.boxindex {
+	width: 352px;
+	height: 360px;
+}
+.boxview {
+	width: 500px;
+	height: 338px;
+}
+.boxaddtask {
+	width: 500px;
+	height: 250px;
+	box-shadow: 0px 0px 20px #67676729;
+}
+
+.box:hover {
+	transition: 0.3s;
+	box-shadow: 0px 0px 10px 10px #7b7b7b29;
+}
+.boxhead,
+#trip_to_paris {
+	padding: 20px;
+	color: #00a5ec;
+	font: normal normal 20px Inter;
+}
+.boxheadaddtask {
+	padding: 20px;
+	color: #404040;
+	font: normal normal 22px Inter;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.boxcontent {
+	font: normal normal normal 18px Inter;
+	padding: 30px;
+}
+.boxcontent1 {
+	color: #c2c2c2;
+	text-decoration: line-through;
+}
+.boxcontent2 {
+	color: #424242;
+	padding-top: 0;
+}
+.button {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	right: 20px;
+}
+.boxcontentaddtask {
+	padding: 25px;
+}
+#learnc {
+	width: 100%;
+	padding: 10px;
+	color: #858585;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	border-radius: 4px;
+}
+#back {
+	font: normal normal normal 20px/24px Inter;
+}
+#cancelbutton {
+	color: #858585;
+	font-weight: 200;
+	font-size: 18px;
+}
+.space {
+	position: relative;
+	left: 194px;
+}
+.blur {
+	filter: blur(5px);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Add New Item</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<div class="blur">
+			<div class="header">
+				<div class="head">Tasks <span class="head1"> List</span></div>
+			</div>
+			<div class="nav navview">
+				<a href="./index.html" target="_self">
+					<div class="icon iconblack">
+						<span class="icontext"><-</span>
+					</div>
+				</a>
+				<a href="./index.html" target="_self" id="back">Back</a>
+				<a href="./AddItem.html" target="_self" class="space">
+					<div class="icon iconblue">
+						<span class="icontext">+</span>
+					</div>
+				</a>
+				<a href="./AddItem.html" target="_self" class="space"> Add New Task</a>
+			</div>
+			<div class="container1 containerview">
+				<div class="box boxview">
+					<div class="boxhead">Trip to Paris</div>
+					<hr />
+					<div class="boxcontent boxcontent1">
+						<input
+							type="checkbox"
+							name="visit church"
+							id="church"
+							value="visit church"
+							checked
+							disabled
+						/>
+						<label for="church">Visit Church</label>
+					</div>
+					<div class="boxcontent boxcontent2">
+						<input
+							type="checkbox"
+							name="shopping"
+							id="shopping"
+							value="shopping"
+						/>
+						<label for="shopping">Shopping</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container1 containeradditem">
+			<div class="box1 boxaddtask">
+				<div class="boxheadaddtask">
+					<div>Add New Item</div>
+					<div>
+						<a href="./ViewTask.html" target="_self" id="cancelbutton">X</a>
+					</div>
+				</div>
+				<hr />
+				<div class="boxcontentaddtask">
+					<input
+						type="text"
+						name="visitfamousplaces"
+						id="learnc"
+						placeholder="Visit Famous Places"
+						disabled
+					/>
+				</div>
+				<div class="button">
+					<button type="submit" disabled="disabled">+ Add Item</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
